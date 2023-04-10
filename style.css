@@ -373,6 +373,7 @@ width: 184px;
 height: 26px;
 left: 470px;
 top: 3774px;
+text-decoration: none;
 
 }
 .SF-Pro-Text500-16{font-family: 'SF Pro Text';
@@ -396,4 +397,94 @@ width: 148px;
 height: 26px;
 right:  580px;
 top: 3774px;
+text-decoration: none;
+}
+.text-seven-decor{
+    text-decoration: underline;
+}
+.text-seven{
+  
+
+position: absolute;
+width: 240px;
+height: 19px;
+left: 399px;
+top: 3851px;
+
+color: #0C0C0C;
+
+
+}
+
+.face2{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 400px;
+top: 3940px;
+background: url(image/image3.svg)top center / 70px 70px no-repeat ;
+}
+.tetx-nine{
+    position: absolute;
+width: 543px;
+height: 78px;
+left: 494px;
+top: 3936px;
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+letter-spacing: 0.05em;
+
+
+color: #0C0C0C;
+
+
+}
+.line10
+{
+    /* Line 5 */
+
+position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 4146px;
+
+border: 2px solid #000000;
+
+}
+.line-fig-center{
+    /* Group 10 */
+
+position: absolute;
+width: 82px;
+height: 64.29px;
+left: 679px;
+top: 4114px;
+background: url(image/image5.svg) top center;
+}
+.text-ten {
+  /* What to read next */
+
+position: absolute;
+width: 400px;
+height: 53px;
+left: 532px;
+top: 4219px;
+
+font-family: 'New York Extra Large';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+  
 }
