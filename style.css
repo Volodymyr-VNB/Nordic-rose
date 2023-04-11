@@ -6,6 +6,13 @@ font-family: 'New York Large', sans-serif;
 font-family: 'New York Medium', sans-serif;
 font-family: 'New York Small', sans-serif;
 font-family: 'SF Mono', sans-serif;
+
+grid: "image1-1 image1-2 image1-3"
+
+      "text1-1 text1-2 text1-3"
+      "image2-1 image2-2 image2-3"
+
+      "text2-1 text2-2 text2-2"  / 1fr 1fr 1fr;
 }
 .logo {
     position: absolute;
@@ -487,4 +494,36 @@ text-align: center;
 color: #000000;
 
   
+}
+.wrapper{
+    display: grid;
+    /* Rectangle 4 */
+
+position: absolute;
+width: 968px;
+height: 308px;
+left: 221px;
+top: 4299px;
+grid-template-rows: 176px 78px 176px 78px;
+grid-template-columns: 304px 304px 304px;
+grid-column-gap: 28px ;
+grid-row-gap:  20px ;
+}
+.image1-1{
+    background: url(image/image1-1.svg) no-repeat;
+}
+.image1-2{
+    background: url(image/image1-2.svg) no-repeat;
+}
+.image1-3{
+    background: url(image/image1-3.svg) no-repeat;
+}
+.image2-1{
+    background: url(image/image2-1.svg) no-repeat;
+}
+.image2-2{
+    background: url(image/image2-2.svg) no-repeat;
+}
+.image2-3{
+    background: url(image/image2-3.svg) no-repeat;
 }
